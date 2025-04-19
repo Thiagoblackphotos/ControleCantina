@@ -7,6 +7,11 @@
     <groupId>com.thiago.cantina</groupId>
     <artifactId>ControleCantina</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+</properties>
+
 
     <dependencies>
         <!-- JDBC MySQL 
@@ -15,7 +20,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.33</version>
+            
         </dependency>
     </dependencies>
 
