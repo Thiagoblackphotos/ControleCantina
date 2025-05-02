@@ -1,4 +1,6 @@
-package cantina;
+package com.thiago.cantina;
+
+
 import java.time.LocalDateTime;
 
 
